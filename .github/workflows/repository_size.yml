@@ -5,8 +5,8 @@ jobs:
   repository_size:
     runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@v3
-      with:
-        repostory: ""
+      - uses: actions/checkout@v3
+        with:
+          repostory: ""
       - run: echo ${GITHUB_REF##*/}
       - run: du -skh --exclude=".git"
