@@ -5,7 +5,7 @@ jobs:
   repository_size:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v3
+       - uses: actions/checkout@v3
       with:
         repostory: ""
       - run: echo ${GITHUB_REF##*/}
