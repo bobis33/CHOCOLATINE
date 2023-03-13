@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       with:
-        repostory: ""
+        repostory: "github.repository"
       - run: echo ${GITHUB_REF##*/}
       - run: du -skh --exclude=".git"
