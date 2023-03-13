@@ -1,5 +1,5 @@
 name: repository_size
-run-name:  ${{ github.autor }} asking for repository size
+run-name: ${{ github.autor }} asking for repository size
 on: [push]
 jobs:
   repository-size:
