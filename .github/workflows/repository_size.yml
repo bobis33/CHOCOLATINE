@@ -2,7 +2,7 @@ name: repository_size
 run-name: ${{ github.autor }} asking for repository size
 on: [push]
 jobs:
-  repository-size:
+  repository_size:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
