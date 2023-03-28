@@ -38,7 +38,6 @@ debug:				$(OBJ)
 					gcc -o $(NAME) $(OBJ) $(CFLAGS)
 
 clean:
-					rm -rf $(NAME)
 					rm -rf $(OBJ)
 
 clean_test:
@@ -46,6 +45,7 @@ clean_test:
 					rm -rf $(NAME_TEST)
 
 fclean:				clean clean_test
+					rm -rf $(NAME)
 					rm -rf $(OBJ)
 					rm -rf $(OBJ_TEST)
 
