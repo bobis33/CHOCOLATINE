@@ -9,5 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-    return error(argc, argv);
+    if (error(argc, argv) == -1)
+        return 84;
+    return 0;
 }
