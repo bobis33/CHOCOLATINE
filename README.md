@@ -1,4 +1,4 @@
-# EPITECH PROJECT | DEVOPS (chocolatine)
+# EPITECH PROJECT | DEVOPS
 <br> <br/>
 #### Docker is one of today’s most popular containerization software.
 
